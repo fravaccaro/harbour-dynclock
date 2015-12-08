@@ -1,0 +1,10 @@
+[Unit]
+Description=Change clock icon.
+
+[Service]
+Type=oneshot
+RemainAfterExit=no
+ExecStart=/usr/share/harbour-dynclock/harbour-dynclock.sh
+
+[Install]
+WantedBy=multi-user.target
