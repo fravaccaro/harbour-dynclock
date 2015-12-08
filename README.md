@@ -7,9 +7,7 @@ Your clock icon will show you the current time. Tested on Sailfish OS 1.1.9.28. 
 
 ## THANKS TO
 
-Coderus, Schturman.
-
-Sources on https://github.com/fravaccaro/harbour-dyncal
-Based on http://pantburk.info/?blog=89
+* Coderus, Schturman.
+* Based on http://pantburk.info/?blog=89
 
 For the latest release, go to https://openrepos.net/content/fravaccaro/dynamic-clock-icon
