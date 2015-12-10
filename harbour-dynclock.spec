@@ -1,6 +1,6 @@
 Name:          harbour-dynclock
 Version:       0.3.1
-Release:       1
+Release:       2
 Summary:       DynClock
 Group:         System/Tools
 Vendor:        fravaccaro
