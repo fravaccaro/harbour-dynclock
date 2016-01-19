@@ -1,4 +1,4 @@
-Your clock icon will show you the current time. Tested on Sailfish OS 1.1.9.28. It may not be compatible with previous releases.
+Your clock icon will show you the current time. Tested on Sailfish OS 2.0. It may not be compatible with previous releases.
 
 ## READ FIRST
 
@@ -10,4 +10,4 @@ Your clock icon will show you the current time. Tested on Sailfish OS 1.1.9.28. 
 * Coderus, Schturman.
 * Based on http://pantburk.info/?blog=89
 
-For the latest release, go to https://openrepos.net/content/fravaccaro/dynamic-clock-icon
+For the latest release, go to https://openrepos.net/content/fravaccaro/dynclock-dynamic-clock-icon

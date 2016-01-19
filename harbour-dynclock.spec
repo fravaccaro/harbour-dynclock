@@ -1,6 +1,6 @@
 Name:          harbour-dynclock
-Version:       0.3.1
-Release:       2
+Version:       0.4.0
+Release:       4
 Summary:       DynClock
 Group:         System/Tools
 Vendor:        fravaccaro
@@ -50,6 +50,9 @@ fi
 fi
 
 %changelog
+* Thu Jan 19 2016 0.4.0
+- High resolution support added.
+
 * Thu Oct 8 2015 0.3.0
 - Clock style updated.
 

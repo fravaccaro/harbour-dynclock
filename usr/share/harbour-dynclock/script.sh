@@ -6,6 +6,10 @@ conv="/usr/bin/convert -quiet"
 # IMPORTANT: Set this to the path where the images and the script reside.
 basedir="/usr/share/harbour-dynclock/"
 
+
+# Load config file
+source $basedir/dynclock.cfg
+
 # Time in hours
 hourtime=`date "+%H"`
 if [ "$hourtime" -gt "12" ]
@@ -27,13 +31,13 @@ minuteangle=`expr $minutetime \* 6`
 
 # 3 combine bg and hour arm
 $conv ${basedir}hour.png -virtual-pixel transparent \
-+distort SRT "43,43 1.0 $hourangle 43,43" \
++distort SRT "${res},${res} 1.0 $hourangle ${res},${res}" \
 -trim ${basedir}bg.png +swap -background none \
 -layers merge +repage ${basedir}tmp.png
 
 # 4 combine result of 3 with minute arm
 $conv ${basedir}minute.png -virtual-pixel transparent \
-+distort SRT "43,43 1.0 $minuteangle 43,43" \
++distort SRT "${res},${res} 1.0 $minuteangle ${res},${res}" \
 -trim ${basedir}tmp.png +swap -background none \
 -layers merge +repage ${basedir}images/clock.png
 
