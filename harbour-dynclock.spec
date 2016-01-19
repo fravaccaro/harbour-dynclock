@@ -1,6 +1,6 @@
 Name:          harbour-dynclock
-Version:       0.4.0
-Release:       4
+Version:       0.5.0
+Release:       1
 Summary:       DynClock
 Group:         System/Tools
 Vendor:        fravaccaro
@@ -50,7 +50,10 @@ fi
 fi
 
 %changelog
-* Thu Jan 19 2016 0.4.0
+* Tue Jan 19 2016 0.5.0
+- Sailfish OS 2.0.7 support.
+
+* Tue Jan 19 2016 0.4.0
 - High resolution support added.
 
 * Thu Oct 8 2015 0.3.0

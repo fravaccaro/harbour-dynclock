@@ -17,7 +17,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-cp /usr/share/harbour-dynclock/icon-launcher-clock.png /usr/share/themes/jolla-ambient/meegotouch/z1.0/icons/icon-launcher-clock.png
+cp /usr/share/harbour-dynclock/icon-launcher-clock.png /usr/share/themes/sailfish-default/meegotouch/z1.0/icons/icon-launcher-clock.png
 rm -rf /usr/share/applications/jolla-clock.desktop
 /usr/bin/desktop-file-install /usr/share/applications/jolla-clock.desktop
 echo '[Desktop Entry]
