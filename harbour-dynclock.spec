@@ -1,11 +1,12 @@
 Name:          harbour-dynclock
 Version:       0.5.0
-Release:       1
+Release:       2
 Summary:       DynClock
 Group:         System/Tools
 Vendor:        fravaccaro
 Distribution:  SailfishOS
-Packager: fravaccaro <fravaccaro@jollacommunity.it>
+Requires:      sailfish-version >= 2.0.1
+Packager:      fravaccaro <fravaccaro@jollacommunity.it>
 URL:           www.jollacommunity.it
 License:       GPL
 
