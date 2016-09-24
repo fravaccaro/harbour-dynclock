@@ -18,7 +18,7 @@
 #
 
 cp /usr/share/harbour-dynclock/icon-launcher-clock.png /usr/share/themes/sailfish-default/meegotouch/z1.0/icons/icon-launcher-clock.png
-rm -rf /usr/share/applications/jolla-clock.desktop
+rm -rf /usr/share/applications/jolla-clock.desktop && touch /usr/share/applications/jolla-clock.desktop
 /usr/bin/desktop-file-install /usr/share/applications/jolla-clock.desktop
 echo '[Desktop Entry]
 Type=Application

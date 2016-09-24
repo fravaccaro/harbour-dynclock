@@ -1,6 +1,6 @@
 Name:          harbour-dynclock
-Version:       0.5.0
-Release:       2
+Version:       0.5.1
+Release:       1
 Summary:       DynClock
 Group:         System/Tools
 Vendor:        fravaccaro
@@ -41,7 +41,7 @@ systemctl stop harbour-dynclock.service
 systemctl disable harbour-dynclock.service
 rm /etc/systemd/system/harbour-dynclock.timer
 rm /etc/systemd/system/harbour-dynclock.service
-rm /usr/share/harbour-dynclock
+rm -rf /usr/share/harbour-dynclock
 else
 if [ $1 = 1 ]; then
     // Do stuff specific to upgrades
@@ -51,6 +51,9 @@ fi
 fi
 
 %changelog
+* Sat Sep 24 2016 0.5.1
+- Icon jumping to the bottom of the app tray may be fixed.
+
 * Tue Jan 19 2016 0.5.0
 - Sailfish OS 2.0.7 support.
 
