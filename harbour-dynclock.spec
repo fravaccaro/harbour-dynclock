@@ -1,5 +1,5 @@
 Name:          harbour-dynclock
-Version:       0.5.1
+Version:       0.5.2
 Release:       1
 Summary:       DynClock
 Group:         System/Tools
@@ -51,6 +51,9 @@ fi
 fi
 
 %changelog
+* Thu Sep 29 2016 0.5.2
+- Black icon fixed.
+
 * Sat Sep 24 2016 0.5.1
 - Icon jumping to the bottom of the app tray may be fixed.
 

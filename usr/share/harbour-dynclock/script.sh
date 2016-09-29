@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Path to ImageMagick convert program
-conv="/usr/bin/convert -quiet"
+conv="convert -quiet"
 
 # IMPORTANT: Set this to the path where the images and the script reside.
 basedir="/usr/share/harbour-dynclock/"
