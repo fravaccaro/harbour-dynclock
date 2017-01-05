@@ -1,5 +1,5 @@
 Name:          harbour-dynclock
-Version:       0.5.2
+Version:       0.5.3
 Release:       1
 Summary:       DynClock
 Group:         System/Tools
@@ -51,6 +51,9 @@ fi
 fi
 
 %changelog
+* Thu Jan 5 2017 0.5.3
+- Bug fix.
+
 * Thu Sep 29 2016 0.5.2
 - Black icon fixed.
 
