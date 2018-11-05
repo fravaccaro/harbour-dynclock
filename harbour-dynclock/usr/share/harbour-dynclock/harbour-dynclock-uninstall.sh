@@ -17,20 +17,20 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-hour=$(date +"%H")
-min=$(date +"%M")
-
-rm /usr/share/harbour-dynclock/images/*
-/usr/share/harbour-dynclock/script.sh
-mv /usr/share/harbour-dynclock/images/clock.png /usr/share/harbour-dynclock/images/$hour$min.png
-rm /usr/share/applications/jolla-clock.desktop && touch /usr/share/applications/jolla-clock.desktop
+cp /usr/share/harbour-dynclock/icon-launcher-clock.png /usr/share/themes/sailfish-default/meegotouch/z1.0/icons/icon-launcher-clock.png
+rm -rf /usr/share/applications/jolla-clock.desktop && touch /usr/share/applications/jolla-clock.desktop
+/usr/bin/desktop-file-install /usr/share/applications/jolla-clock.desktop
 echo '[Desktop Entry]
 Type=Application
 Name=Clock
 X-MeeGo-Logical-Id=clock-ap-name
 X-MeeGo-Translation-Catalog=clock
+Icon=icon-launcher-clock
 Exec=invoker -s --type=silica-qt5 /usr/bin/jolla-clock
 Comment=Jolla clock
-X-Desktop-File-Install-Version=0.20' > /usr/share/applications/jolla-clock.desktop
-/usr/bin/desktop-file-install /usr/share/applications/jolla-clock.desktop --set-icon=/usr/share/harbour-dynclock/images/$hour$min.png
+X-Maemo-Service=com.jolla.clock
+X-Maemo-Object-Path=/
+X-Maemo-Method=com.jolla.clock.activateWindow
+X-Desktop-File-Install-Version=0.23' > /usr/share/applications/jolla-clock.desktop
+/usr/bin/desktop-file-install /usr/share/applications/jolla-clock.desktop --set-icon=icon-launcher-clock
 exit 0
