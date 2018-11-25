@@ -9,7 +9,7 @@ For the latest release, go to https://openrepos.net/content/fravaccaro/dynclock-
 
 ## Themes support
 
-DynClock supports theming via [Theme pack support for Sailfish OS](https://github.com/fravaccaro/harbour-themepacksupport/wiki).
+DynClock supports theming via [Theme pack support for Sailfish OS](https://fravaccaro.github.io/themepacksupport-sailfishos/docs/getstarted.html).
 
 ## Thanks to
 
